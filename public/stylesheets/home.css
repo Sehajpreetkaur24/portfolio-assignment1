@@ -1,0 +1,142 @@
+/* Sehajpreet Kaur */
+body,
+h1,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea; /* Changed the background color */
+  color: #444; /* Changed text color */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Changed the background color */
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Navigation bar styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Logo styles */
+.logo img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 10px;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  display: flex;
+}
+
+/* Navigation list items */
+nav li {
+  margin-right: 20px;
+  padding: 5px;
+  transition: background-color 0.3s, transform 0.3s, color 0.3s; /* Added a transition for hover effect */
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* List item hover styles */
+nav li:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+  background-color: #8338ec; /* Changed the background color on hover */
+  color: white; /* Changed the text color on hover */
+}
+
+/* Main content styles with animation */
+main {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.3s; /* Added a transition for background color and transform */
+  animation: fadeIn 1s; /* Added a fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Image styles within main content */
+main img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+/* Home page specific styles */
+.home-page h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.home-page p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.home-page a {
+  text-decoration: underline;
+}
+
+.button-container {
+  text-align: center; /* Center the link horizontally */
+  margin-top: 1rem; /* Add margin to create space above the link */
+}
+
+.button-container a {
+  display: inline-block; /* Make the link a block-level element */
+  background-color: #8338ec;
+  color: white;
+  padding: 5px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* Style for the footer */
+footer {
+  background-color: #333; /* Changed the background color */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}
+
+/* Add hover effect for the footer if needed */
+footer:hover {
+  background-color: #444;
+}

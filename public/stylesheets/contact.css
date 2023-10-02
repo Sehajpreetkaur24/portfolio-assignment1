@@ -1,0 +1,152 @@
+/* Sehajpreet Kaur */
+body,
+h1,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea; /* Changed the background color */
+  color: #444; /* Changed text color */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Changed the background color */
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Navigation bar styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Logo styles */
+.logo img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 10px;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  display: flex;
+}
+
+/* Navigation list items */
+nav li {
+  margin-right: 20px;
+  padding: 5px;
+  transition: background-color 0.3s, transform 0.3s, color 0.3s; /* Added a transition for hover effect */
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* List item hover styles */
+nav li:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+  background-color: #8338ec; /* Changed the background color on hover */
+  color: white; /* Changed the text color on hover */
+}
+
+/* Style for the footer */
+footer {
+  background-color: #333; /* Changed the background color */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}
+
+/* Add hover effect for the footer if needed */
+footer:hover {
+  background-color: #444;
+}
+
+body h1 {
+  font-size: 35px;
+  text-decoration: underline;
+  margin: 15px;
+}
+
+/* You can style your Contact Page here */
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info,
+.contact-form {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #cad2c5;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  margin-top: 0;
+}
+
+.contact-form form {
+  text-align: left;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #006d77;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #005165;
+}
+
+/* Additional styling as needed */
