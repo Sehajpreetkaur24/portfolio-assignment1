@@ -1,0 +1,39 @@
+<!-- Sehajpreet Kaur -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/public/stylesheets/home.css" />
+  </head>
+
+  <body>
+    <header><%- include('partials/navbar.ejs') %></header>
+
+    <main>
+      <center>
+        <section class="home-page">
+          <h1>Hello! I'm Sehajpreet Kaur</h1>
+          <img src="/public/images/profile.jpeg" alt="profile" />
+
+          <p>
+            Welcome to my portfolio! My mission is to create, inspire, and leave
+            a lasting impact. I'm here to showcase my passion and dedication
+            through my work. Thank you for joining me on this journey.
+          </p>
+          My mission is to harness creativity and innovation to inspire positive
+          change. Through my work, I aim to push boundaries, spark curiosity,
+          and contribute meaningfully to the betterment of society. I believe in
+          the power of innovative thinking and its ability to drive progress,
+          and I am dedicated to leaving a lasting, positive impact through my
+          contributions and endeavors.
+        </section>
+        <div class="button-container">
+          <a href="/about">More about me</a>
+        </div>
+      </center>
+    </main>
+    <%- include('partials/footer.ejs') %>
+  </body>
+</html>

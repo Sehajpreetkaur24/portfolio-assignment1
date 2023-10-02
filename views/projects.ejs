@@ -1,0 +1,64 @@
+<!-- Sehajpreet Kaur -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="/public/stylesheets/projects.css" />
+  </head>
+  <header><%- include('partials/navbar.ejs') %></header>
+  <body>
+    <center>
+      <h1>Projects</h1>
+    </center>
+    <div class="card-container">
+      <div class="project-card">
+        <img
+          src="/public/images/ecommerce.png"
+          alt="E-commerce Website Enhancement"
+        />
+        <h2>E-commerce Website Enhancement</h2>
+        <p>
+          Take an existing e-commerce website and enhance its functionality.
+          Implement features such as a recommendation engine, a more intuitive
+          user interface, or a personalized shopping experience using data
+          analytics and machine learning. Showcase how these enhancements
+          improve user engagement and increase sales
+        </p>
+      </div>
+
+      <div class="project-card">
+        <img
+          src="/public/images/mobile.png"
+          alt="Mobile App for Fitness Tracking"
+        />
+        <h2>Mobile App for Fitness Tracking</h2>
+        <p>
+          Develop a mobile app for fitness enthusiasts to track their workouts,
+          nutrition, and progress. Include features like workout planning,
+          calorie tracking, and integration with wearable fitness devices.
+          Highlight how your app promotes a healthier lifestyle and helps users
+          achieve their fitness goals.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <img
+          src="/public/images/community.png"
+          alt="Community Event Management Platform:"
+        />
+        <h2>Community Event Management Platform:</h2>
+        <p>
+          Create a web-based platform for managing and promoting community
+          events. Include features like event scheduling, ticketing, attendee
+          registration, and social media integration. Demonstrate how this
+          platform simplifies event management for organizers and enhances the
+          experience for attendees.
+        </p>
+      </div>
+    </div>
+
+    <%- include('partials/footer.ejs') %>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!-- Sehajpreet Kaur -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <link rel="stylesheet" href="/public/stylesheets/services.css" />
+  </head>
+  <header><%- include('partials/navbar.ejs') %></header>
+  <body>
+    <center>
+      <h1>Services</h1>
+    </center>
+    <div class="card-container">
+      <div class="service-card">
+        <img
+          src="/public/images/software.jpeg"
+          alt="Custom Software Development"
+        />
+        <h2>Custom Software Development</h2>
+        <p>
+          Provide custom software development services tailored to the unique
+          needs of clients. Offer expertise in designing, developing, and
+          maintaining software applications, ensuring they align with clients'
+          business objectives. Showcase your proficiency in various programming
+          languages and technologies to create efficient and effective
+          solutions.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img
+          src="/public/images/web.jpeg"
+          alt="Website Design and Development"
+        />
+        <h2>Website Design and Development</h2>
+        <p>
+          Offer website design and development services for businesses and
+          individuals. Create visually appealing and responsive websites that
+          are user-friendly and optimized for search engines. Highlight your
+          skills in HTML, CSS, JavaScript, and content management systems like
+          WordPress, emphasizing your ability to deliver a compelling online
+          presence for clients.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <img src="/public/images/mobiledev.png" alt="Mobile App Development" />
+        <h2>Mobile App Developmentt</h2>
+        <p>
+          Specialize in mobile app development for both iOS and Android
+          platforms. Develop apps that range from consumer-facing applications
+          to enterprise-level solutions. Emphasize your proficiency in app
+          design, user experience (UX), and your ability to turn ideas into
+          functional and user-friendly mobile applications.
+        </p>
+      </div>
+    </div>
+
+    <%- include('partials/footer.ejs') %>
+  </body>
+</html>
